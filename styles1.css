@@ -1,0 +1,145 @@
+/* Style chung cho index.html, hobby.html và gaming.html */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  /* Phần Header */
+  header {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  header h1 {
+    font-size: 3em;
+    color: #D0F4EA;
+  }
+  
+  header p {
+    font-size: 1.5em;
+    color: #D0F4EA;
+  }
+  /* Thêm kiểu cho phần overlay */
+.overlay {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Màu đen với độ mờ 50% */
+    z-index: 1; /* Đặt overlay ở trên hình ảnh */
+}
+
+/* Style cho nội dung trên overlay */
+.container {
+    position: relative;
+    z-index: 2; /* Đặt nội dung trên overlay ở trên overlay */
+}
+
+.container h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.overlay-text {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #D0F4EA; /* Chỉnh màu chữ nếu cần */
+}
+
+
+
+  /* Phần Nội dung chính (index.html, hobby.html, gaming.html) */
+  section.container {
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 30px;
+    margin-top: 20px;
+  }
+  
+  .card {
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+  }
+  
+  .card:hover {
+    transform: scale(1.03); /* Điều chỉnh giảm độ phóng to */
+  }
+  
+  .card img {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover img {
+    transform: scale(1); /* Điều chỉnh giảm độ phóng to */
+  }
+
+  /* Thêm style tùy chỉnh nếu cần */
+  figure {
+    text-align: center; /* Căn giữa chữ trong figure */
+  }
+  
+  figcaption {
+    font-size: px; /* Điều chỉnh kích thước chữ */
+    margin-top: 10px; /* Tăng khoảng cách giữa ảnh và chữ mô tả */
+  }
+  
+  
+  /* Phần Footer */
+  footer {
+    background-color: #343a40;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 0;
+  }
+  
+  /* Biểu tượng mạng xã hội trong phần Footer */
+  footer i {
+    font-size: 36px;
+    margin-right: 10px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .footer-icons a:hover i {
+    color: #007bff;
+  }
+  
+  /* Phần Nội dung chi tiết (hobby.html và gaming.html) */
+  section.post-container {
+    margin-top: 20px;
+  }
+  
+  .post {
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 30px;
+  }
+  
+  .post img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .post h2 {
+    color: #007bff;
+  }
+  
+  .post p {
+    color: #555;
+  }
+  
+  /* Phần Nút "Đọc Thêm" */
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
