@@ -15,15 +15,7 @@ header {
     min-height: 500px;
   }
   
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Điều chỉnh màu overlay tối ở đây */
-    z-index: -1; /* Đưa overlay xuống phía dưới các phần tử khác */
-  }
+  
   
   .avatar-container {
     position: relative;
